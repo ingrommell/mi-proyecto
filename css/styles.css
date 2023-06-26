@@ -1,29 +1,65 @@
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 410px;
+  margin: auto;
+  align-items: center;
+}
+
+#logotipo {
+    width:40%
+    /* max-width:150px; */
+}
+
+.barra_navegacion {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.elemento_nav{
+    margin: .4rem;
 }
 
 body {
-    background-color: #fbfbfb;
+  background-color: #fbfbfb;
 }
 
+figure{
+    display:flex;
+    justify-content: center;
+}
+
+#imagen_rommell{
+    width: 80%;
+    border-radius: 70%;
+}
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-
 main {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* Recomendaciones! 
