@@ -4,6 +4,7 @@
   padding: 0;
   scroll-behavior: smooth;
   line-height: 1.5;
+  background-color: #fbfbfb
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
@@ -11,27 +12,29 @@
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   max-width: 410px;
+  height: 90px;
   margin: auto;
   align-items: center;
 }
 
 #logotipo {
-    width:40%
+    width:48%
     /* max-width:150px; */
 }
 
 .barra_navegacion {
   font-family: "Lato", sans-serif;
+  font-size: 20px;
   font-weight: bold;
   display: flex;
   flex-direction: row;
 }
 
 .elemento_nav{
-    margin: .4rem;
+    margin: 1.5rem;
 }
 
 body {
@@ -44,7 +47,8 @@ figure{
 }
 
 #imagen_rommell{
-    width: 80%;
+    width: 92%;
+    max-width: 400px;
     border-radius: 70%;
 }
 
