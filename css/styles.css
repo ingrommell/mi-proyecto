@@ -7,25 +7,24 @@
   background-color: #fbfbfb
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
 body {
   background-color: #fbfbfb;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  max-width: 410px;
+  max-width: 400px;
+  width: 95%;
   height: 90px;
   margin: auto;  
 }
 
 hr{
   width: 100%;
-  max-width: 420px;
   margin:auto;
 }
 
@@ -52,6 +51,11 @@ hr{
 .elemento_nav{
     margin: 1.5rem;
     font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+#inicio{
+  min-height: 100vh;
 }
 
 figure{
@@ -64,7 +68,7 @@ figure{
 #imagen_rommell{
     width: 92%;
     height: 92%;
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 70%;
     border: 2px black;
     border-style: double;
@@ -73,11 +77,12 @@ figure{
 
 h1{
   font-family: "Lato", sans-serif;
+  font-weight: 700px;
   font-size: 36px;
   text-align: center;
   width: 90%;
   max-width: 400px;
-  margin: 10px auto 10px auto;
+  margin: 5px auto 5px auto;
 }
 
 #nota_1{
@@ -87,12 +92,13 @@ h1{
   font-size:18px;
   margin-bottom: 20px;
   max-width: 410px;
+  width: 90%;
   margin: 20px auto 20px auto;
-
-
 }
 
 #boton_cv{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
   display:flex;
   justify-content: center;
   align-items:center;
@@ -100,9 +106,43 @@ h1{
   text-align: center;
   height: 50px;
   color:white;
-  width: 50%;
+  width: 200px;
   margin:auto;
-  border-radius:20%;
+  border-radius:30px;
+}
+
+#contacto{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px auto 30px auto;
+  background-color: #5994af;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.grupo_iconos{
+  display: flex;
+  justify-content: center;
+}
+
+.icono{
+  max-width: 100px;
+  margin: 30px 15px 80px 15px;
+}
+
+footer{
+  background-color: #af599e;
+  color:#fbfbfb;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
